@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background: #1B244A
+    background: #1B244A;
 }
 
 .container {
@@ -11,6 +11,9 @@ body {
     font-weight:bold;
     font-size:30px;
     max-width: 500px;
+    margin:30px auto;
+    border:5px solid #9AABD8;
+    padding:70px 30px;
 }
 
 #home, #guest{
@@ -19,7 +22,7 @@ body {
 
 h3{
     /*border:1px solid white;*/
-    margin-bottom:0px;
+    margin:0px;
 }
 .score {
     border:0px solid white;
@@ -46,7 +49,7 @@ h3{
 
 #newGame {
     display: block;
-    margin:50px auto;
+    margin:10px auto;
     padding:10px 30px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     color:#080001;
